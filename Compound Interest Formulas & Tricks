@@ -1,0 +1,151 @@
+# 🔥 Compound Interest - Formulas & Tricks for Aptitude Questions 🔥
+
+Compound Interest (CI) problems are frequently asked in aptitude tests for **Google, Amazon, Microsoft**, and other top companies. Below are **formulas, shortcuts, and tricks** to solve CI problems quickly.
+
+---
+
+## **🔹 1. Compound Interest Formula**
+```math
+A = P \left(1 + \frac{R}{100} \right)^T
+```
+Where:
+- **A** = Final Amount
+- **P** = Principal Amount
+- **R** = Rate of Interest per annum
+- **T** = Time (in years)
+
+**Compound Interest (CI):**
+```math
+CI = A - P
+```
+
+---
+
+## **🔹 2. Finding Principal (P)**
+```math
+P = \frac{A}{\left(1 + \frac{R}{100}\right)^T}
+```
+
+---
+
+## **🔹 3. Finding Rate of Interest (R)**
+```math
+R = \left(\frac{A}{P}\right)^{\frac{1}{T}} - 1 \times 100
+```
+
+---
+
+## **🔹 4. Finding Time (T)**
+```math
+T = \frac{\log(A/P)}{\log(1 + R/100)}
+```
+
+---
+
+## **📌 Special Cases & Tricks**
+
+### **🔹 1. When Interest is Compounded More Than Once a Year**
+If interest is compounded **n times** a year:
+```math
+A = P \left(1 + \frac{R}{n \times 100} \right)^{nT}
+```
+- **n = 1** → Yearly
+- **n = 2** → Half-yearly
+- **n = 4** → Quarterly
+- **n = 12** → Monthly
+
+---
+
+### **🔹 2. Shortcut for Compound Interest for 2 Years**
+```math
+CI = P \times \left[ \frac{R}{100} + \left( \frac{R}{100} \right)^2 \right]
+```
+
+### **🔹 3. Shortcut for Compound Interest for 3 Years**
+```math
+CI = P \times \left[ \frac{R}{100} + \left( \frac{R}{100} \right)^2 + \left( \frac{R}{100} \right)^3 \right]
+```
+
+---
+
+### **🔹 4. If CI for Different Time Periods is Given**
+- If **CI for 1st year = X**, then for **T years**:
+```math
+CI = X \times \left(1 + \frac{R}{100}\right)^{T-1}
+```
+
+---
+
+### **🔹 5. If Principal Becomes n Times in T Years**
+```math
+R = \left(\frac{n-1}{T}\right) \times 100
+```
+
+**Example:** If ₹5000 becomes ₹10000 in 5 years, find **R**.
+```math
+R = \left(\frac{2-1}{5}\right) \times 100 = 20\%
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: Find CI when P = ₹2000, R = 10% per annum, T = 2 years**
+**Solution:**
+```math
+A = 2000 \times \left(1 + \frac{10}{100}\right)^2
+A = 2000 \times \left(1.1\right)^2
+A = 2000 \times 1.21 = ₹2420
+CI = A - P = 2420 - 2000 = ₹420
+```
+
+---
+
+### **📝 Q2: Find the amount when ₹5000 is invested at 8% per annum, compounded quarterly for 1 year.**
+**Solution:**
+```math
+A = 5000 \times \left(1 + \frac{8}{4 \times 100}\right)^{4 \times 1}
+A = 5000 \times \left(1 + 0.02\right)^4
+A = 5000 \times 1.0824 = ₹5412
+```
+
+---
+
+### **📝 Q3: If ₹5000 becomes ₹6050 in 2 years, find the Rate of Interest.**
+**Solution:**
+```math
+R = \left(\frac{6050}{5000}\right)^{\frac{1}{2}} - 1 \times 100
+R = (1.21)^{1/2} - 1 \times 100 = 10\%
+```
+
+---
+
+### **📝 Q4: A sum triples in 3 years. Find the Rate of Interest.**
+**Solution:**
+```math
+A = 3P
+```
+```math
+R = \left(\frac{3-1}{3}\right) \times 100 = 66.67\%
+```
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+| Trick | Formula |
+|-------|---------|
+| **CI for 2 years** | \( CI = P \times \left[ \frac{R}{100} + \left( \frac{R}{100} \right)^2 \right] \) |
+| **CI for 3 years** | \( CI = P \times \left[ \frac{R}{100} + \left( \frac{R}{100} \right)^2 + \left( \frac{R}{100} \right)^3 \right] \) |
+| **If P becomes n times in T years** | \( R = \left(\frac{n-1}{T}\right) \times 100 \) |
+| **If interest is compounded quarterly** | \( A = P \left(1 + \frac{R}{4 \times 100}\right)^{4T} \) |
+
+---
+
+## **📌 Conclusion**
+- **Memorize the CI formula & derived formulas** 📚
+- **Apply shortcut tricks to save time** ⏳
+- **Practice with real exam questions** 🎯
+
+🔥 **Mastering these tricks will help you crack aptitude questions fast!** 🚀
+
+Let me know if you need more tricks or practice problems! 💡
