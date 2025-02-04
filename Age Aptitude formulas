@@ -1,0 +1,192 @@
+# 🔥 Aptitude Tricks & Formulas - Problems on Ages 🔥
+
+Problems on ages are commonly asked in competitive exams and aptitude tests. Below are **formulas, shortcuts, and tricks** to solve age-related questions quickly. 🚀
+
+---
+
+## **🔹 1. Basic Age Formula**
+
+If the **present age** is **X**, then:
+- **Age after n years** = X + n
+- **Age before n years** = X - n
+- **n years ago, age was** = X - n
+- **n years later, age will be** = X + n
+
+---
+
+## **🔹 2. Average Age Formula**
+
+If the average age of a group of **N** people is **A**, then:
+```math
+\text{Total age} = A \times N
+```
+If a new person with age **B** joins, the new average is:
+```math
+\text{New Average} = \frac{(A \times N) + B}{N+1}
+```
+If a person with age **B** leaves, the new average is:
+```math
+\text{New Average} = \frac{(A \times N) - B}{N-1}
+```
+
+---
+
+## **🔹 3. Ratio of Ages**
+
+If the present age of **A** and **B** is in the ratio **x : y**, then:
+- After **n** years, the new ratio = **(x + n) : (y + n)**
+- Before **n** years, the ratio = **(x - n) : (y - n)**
+
+---
+
+## **🔹 4. Age Difference Rule**
+
+The difference between the ages of two people **always remains constant** over the years.
+```math
+\text{Age Difference} = \text{(Present Age of Older)} - \text{(Present Age of Younger)}
+```
+
+---
+
+## **🔹 5. Finding Present Age from Past/Future Statements**
+
+If the age of a person is given as **X years ago** and their age **Y years later** is known, then:
+```math
+\text{Present Age} = \frac{(X + Y)}{2}
+```
+
+---
+
+## **📌 Tricks & Shortcuts for Quick Calculations**
+
+### **🔹 1. If Father’s Age is Given in Terms of Son’s Age**
+If a father’s age is **x times** his son’s age and after **n years**, their ages will be in ratio **a : b**, then:
+```math
+\frac{X + n}{Y + n} = \frac{a}{b}
+```
+Solve for **X** and **Y**.
+
+---
+
+### **🔹 2. If Sum of Present Ages is Given**
+If the sum of present ages of two people is **S**, and their age difference is **D**, then:
+```math
+\text{Older Person’s Age} = \frac{S + D}{2}
+```
+```math
+\text{Younger Person’s Age} = \frac{S - D}{2}
+```
+
+---
+
+### **🔹 3. If Future Age Ratio is Given**
+If the ratio of two people’s **ages after n years** is **a : b**, then:
+```math
+\frac{X + n}{Y + n} = \frac{a}{b}
+```
+Solve for **X** and **Y**.
+
+---
+
+### **🔹 4. Reverse Calculation from Future Age**
+If a person’s age **n years ago** was **X** years, then their present age is:
+```math
+\text{Present Age} = X + n
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A father is three times as old as his son. After 12 years, the father’s age will be twice that of his son. Find their present ages.**
+**Solution:**
+
+Let the son’s present age be **X** years. Then the father’s age is **3X**.
+
+After 12 years,
+```math
+3X + 12 = 2(X + 12)
+```
+```math
+3X + 12 = 2X + 24
+```
+```math
+3X - 2X = 24 - 12
+```
+```math
+X = 12
+```
+So, the **son is 12 years old**, and the **father is 36 years old**.
+
+---
+
+### **📝 Q2: The present age of A and B are in the ratio 5:7. After 6 years, their age ratio becomes 3:4. Find their present ages.**
+**Solution:**
+
+Let A’s and B’s present ages be **5X** and **7X**, respectively.
+
+After 6 years,
+```math
+\frac{5X + 6}{7X + 6} = \frac{3}{4}
+```
+Cross multiplying,
+```math
+4(5X + 6) = 3(7X + 6)
+```
+```math
+20X + 24 = 21X + 18
+```
+```math
+21X - 20X = 24 - 18
+```
+```math
+X = 6
+```
+So, **A’s present age = 5 × 6 = 30 years** and **B’s present age = 7 × 6 = 42 years**.
+
+---
+
+### **📝 Q3: The sum of the ages of a father and son is 50 years. Four years ago, the father was three times as old as the son. Find their present ages.**
+**Solution:**
+
+Let the son’s present age be **X** and the father’s present age be **50 - X**.
+
+Four years ago,
+```math
+(50 - X - 4) = 3(X - 4)
+```
+```math
+46 - X = 3X - 12
+```
+```math
+46 + 12 = 3X + X
+```
+```math
+4X = 58
+```
+```math
+X = 14.5
+```
+So, the **son is 14.5 years old**, and the **father is 35.5 years old**.
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+
+| Trick | Formula |
+|-------|---------|
+| **Sum of present ages given** | Older age = \((S + D)/2\), Younger age = \((S - D)/2\) |
+| **Age before or after n years** | Present Age = (Past/Future Age) ± n |
+| **Father-Son Age Ratio** | \((X + n)/(Y + n) = a/b\) |
+| **If A is x years older than B** | A = B + x |
+
+---
+
+## **📌 Conclusion**
+- **Memorize these formulas & tricks** 📚  
+- **Apply shortcut techniques to save time** ⏳  
+- **Practice more real exam questions** 🎯  
+
+🔥 **Mastering these will help you crack aptitude tests fast!** 🚀  
+
+Let me know if you need additional tricks or practice problems! 💡
