@@ -1,0 +1,180 @@
+# 🔥 Simple Interest - Formulas & Tricks for Aptitude Questions 🔥
+
+Simple Interest (SI) problems are commonly asked in aptitude tests for companies like **Google, Amazon, Microsoft**, and others. Below are key **formulas, shortcuts, and tricks** to solve SI questions quickly.  
+
+---
+
+## **🔹 1. Simple Interest Formula**  
+```math
+SI = \frac{P \times R \times T}{100}
+```
+Where:  
+- **SI** = Simple Interest  
+- **P** = Principal Amount  
+- **R** = Rate of Interest per annum  
+- **T** = Time (in years)  
+
+---
+
+## **🔹 2. Total Amount (A)**
+```math
+A = P + SI
+```
+```math
+A = P \left( 1 + \frac{R \times T}{100} \right)
+```
+
+---
+
+## **🔹 3. Finding Principal (P)**
+```math
+P = \frac{SI \times 100}{R \times T}
+```
+
+---
+
+## **🔹 4. Finding Rate of Interest (R)**
+```math
+R = \frac{SI \times 100}{P \times T}
+```
+
+---
+
+## **🔹 5. Finding Time (T)**
+```math
+T = \frac{SI \times 100}{P \times R}
+```
+
+---
+
+## **📌 Tricks & Shortcuts for Quick Calculations**
+
+### **🔹 1. When Time is Given in Months or Days**  
+- If **T is in months**, use:
+```math
+T = \frac{\text{Number of months}}{12}
+```
+- If **T is in days**, use:
+```math
+T = \frac{\text{Number of days}}{365}
+```
+(Take **360 days** in some bank-related problems)
+
+---
+
+### **🔹 2. If SI for Different Time Periods is Given**
+- If **SI for 1 year = X**, then for **T years = X × T**
+- If **SI for 2 years = Y**, then for **1 year = Y/2**  
+
+---
+
+### **🔹 3. If Principal is Doubled / Tripled**
+```math
+SI \propto P, R, T
+```
+- If **P doubles**, SI **also doubles**.
+- If **T doubles**, SI **also doubles**.
+- If **R doubles**, SI **also doubles**.
+
+---
+
+### **🔹 4. Finding Rate When SI is a Fraction of Principal**
+If SI is **x% of P**, then:
+```math
+R \times T = x
+```
+From this,  
+```math
+R = \frac{x}{T} \quad \text{or} \quad T = \frac{x}{R}
+```
+
+**Example:** If SI is **20% of P** in **5 years**, then  
+```math
+R = \frac{20}{5} = 4\% \text{ per annum}
+```
+
+---
+
+### **🔹 5. If SI for Different People is Given**
+If two people invest different amounts at the same **R and T**, then:
+```math
+\frac{SI_1}{SI_2} = \frac{P_1}{P_2}
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: Find SI when P = ₹2000, R = 5% per annum, T = 3 years**
+**Solution:**  
+```math
+SI = \frac{2000 \times 5 \times 3}{100} = ₹300
+```
+
+---
+
+### **📝 Q2: A sum becomes ₹6600 in 5 years at 8% per annum. Find the Principal (P).**
+**Solution:**  
+```math
+SI = A - P
+```
+Using:
+```math
+P = \frac{A}{1 + \frac{R \times T}{100}}
+```
+```math
+P = \frac{6600}{1 + \frac{8 \times 5}{100}} = \frac{6600}{1.4} = ₹4714.28
+```
+
+---
+
+### **📝 Q3: At what rate will ₹5000 become ₹7000 in 4 years?**
+**Solution:**  
+```math
+SI = A - P = 7000 - 5000 = ₹2000
+```
+Using:
+```math
+R = \frac{SI \times 100}{P \times T} = \frac{2000 \times 100}{5000 \times 4} = 10\% \text{ per annum}
+```
+
+---
+
+### **📝 Q4: A sum becomes 5 times in 10 years. Find the Rate of Interest.**
+**Solution:**  
+```math
+A = 5P
+```
+```math
+SI = A - P = 5P - P = 4P
+```
+Using:
+```math
+R = \frac{SI \times 100}{P \times T} = \frac{4P \times 100}{P \times 10} = 40\%
+```
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+| Trick | Formula |
+|-------|---------|
+| **SI is % of P** | \( R \times T = \text{SI% of P} \) |
+| **A becomes n times in T years** | \( R = \frac{(n-1) \times 100}{T} \) |
+| **P becomes double in T years** | \( R = \frac{100}{T} \) |
+| **P becomes triple in T years** | \( R = \frac{200}{T} \) |
+
+---
+
+## **📌 Conclusion**
+- **Memorize the SI formula & derived formulas** 📚  
+- **Apply shortcut tricks to save time** ⏳  
+- **Practice with real exam questions** 🎯  
+
+🔥 **Mastering these will help you crack aptitude questions fast!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
+
+​
+ 
+​
+ 
