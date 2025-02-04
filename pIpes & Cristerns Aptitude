@@ -1,0 +1,118 @@
+# 🔥 Pipes & Cisterns - Formulas & Tricks for Aptitude Questions 🔥
+
+Pipes & Cisterns problems are commonly asked in aptitude tests for companies like **Google, Amazon, Microsoft**, and others. Below are key **formulas, shortcuts, and tricks** to solve these problems quickly.  
+
+---
+
+## **🔹 1. Basic Formulas**
+
+### **📌 A pipe fills a tank in T hours**
+- The pipe’s **filling rate** = `1/T` (i.e., in one hour, it fills 1/T of the tank)
+
+### **📌 A pipe empties a tank in T hours**
+- The pipe’s **emptying rate** = `1/T` (i.e., in one hour, it empties 1/T of the tank)
+
+### **📌 If a pipe fills in X hours and another empties in Y hours, the net filling rate is:**
+```math
+\frac{1}{X} - \frac{1}{Y}
+```
+
+### **📌 If two pipes fill a tank in X and Y hours respectively, the combined filling rate is:**
+```math
+\frac{1}{X} + \frac{1}{Y}
+```
+
+---
+
+## **🔹 2. Important Cases**
+
+### **📌 Case 1: Two Pipes Filling the Tank Together**
+If Pipe A fills in **X** hours and Pipe B fills in **Y** hours, then time taken to fill the tank together is:
+```math
+T = \frac{X \times Y}{X + Y}
+```
+
+### **📌 Case 2: One Filling and One Emptying the Tank**
+If Pipe A fills in **X** hours and Pipe B empties in **Y** hours, then time to fill the tank is:
+```math
+T = \frac{X \times Y}{Y - X} \quad \text{(Y > X)}
+```
+
+### **📌 Case 3: Three Pipes (Two Filling, One Emptying)**
+If A fills in **X** hours, B fills in **Y** hours, and C empties in **Z** hours:
+```math
+T = \frac{X \times Y \times Z}{XY - XZ - YZ}
+```
+
+---
+
+## **🔹 3. Tricks for Quick Calculations**
+
+### **📌 Trick 1: When the Tank is Half-Filled**
+- If a pipe takes **T hours** to fill the full tank, it will take **T/2 hours** to fill **half the tank**.
+
+### **📌 Trick 2: Alternate Opening of Pipes**
+- If Pipe A is opened for **1 hour**, then Pipe B is opened for **1 hour**, and this cycle continues, then the effective rate is the **average of both pipes' rates**.
+
+### **📌 Trick 3: When a Leak is Present**
+- If a pipe fills the tank in **T hours**, but due to a leak it takes **T' hours**, then the leak alone can empty the tank in:
+```math
+\frac{T \times T'}{T - T'}
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A pipe fills a tank in 6 hours and another pipe fills it in 8 hours. How long will it take both pipes to fill the tank together?**
+**Solution:**  
+Using:
+```math
+T = \frac{X \times Y}{X + Y} = \frac{6 \times 8}{6 + 8} = \frac{48}{14} = 3.43 \text{ hours}
+```
+
+---
+
+### **📝 Q2: A pipe can fill a tank in 12 hours, but a leak empties it in 20 hours. How long will it take to fill the tank?**
+**Solution:**  
+Using:
+```math
+T = \frac{X \times Y}{Y - X} = \frac{12 \times 20}{20 - 12} = \frac{240}{8} = 30 \text{ hours}
+```
+
+---
+
+### **📝 Q3: A pipe fills a tank in 5 hours, another fills it in 10 hours, but a third pipe empties it in 15 hours. How long will it take to fill the tank?**
+**Solution:**  
+Using:
+```math
+T = \frac{X \times Y \times Z}{XY - XZ - YZ}
+```
+```math
+T = \frac{5 \times 10 \times 15}{(5 \times 10) - (5 \times 15) - (10 \times 15)}
+```
+```math
+T = \frac{750}{50 - 75 - 150} = \frac{750}{-175}
+```
+(Since the result is negative, it means the tank will never be filled, i.e., the emptying pipe is too strong!)
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+| Trick | Formula |
+|-------|---------|
+| **Two pipes filling together** | \( T = \frac{X \times Y}{X + Y} \) |
+| **One filling, one emptying** | \( T = \frac{X \times Y}{Y - X} \) (Y > X) |
+| **Three pipes (2 fill, 1 empties)** | \( T = \frac{X \times Y \times Z}{XY - XZ - YZ} \) |
+| **Time for leak to empty tank** | \( T = \frac{T \times T'}{T - T'} \) |
+
+---
+
+## **📌 Conclusion**
+- **Memorize the formulas for fast problem-solving** 📚  
+- **Use shortcut tricks to save time** ⏳  
+- **Practice with real exam questions** 🎯  
+
+🔥 **Mastering these will help you crack aptitude questions fast!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
