@@ -1,0 +1,122 @@
+# 🤝 Partnerships - Formulas & Tricks for Aptitude Questions 🤝
+
+Partnership problems are frequently asked in aptitude tests for companies like **Google, Amazon, Microsoft**, and other competitive exams. Below are key **formulas, shortcuts, and tricks** to solve partnership questions quickly.  
+
+---
+
+## **🔹 1. Basic Partnership Formula**  
+In a business partnership, the **profit/loss is divided in the ratio of their investments**.
+
+```math
+	ext{Profit Share} = \left( rac{	ext{Investment of a Partner} 	imes 	ext{Time}}{	ext{Total Investment}} 
+ight) 	imes 	ext{Total Profit}
+```
+
+### **🔹 Types of Partnerships:**
+1. **Simple Partnership** - When partners invest money **for the same time**.
+2. **Compound Partnership** - When partners invest money **for different time periods**.
+
+---
+
+## **🔹 2. Ratio of Profits in Simple Partnership**
+If **A & B** invest **P₁ & P₂** for the **same time (T)**, then:
+```math
+	ext{Profit Ratio} = P₁ : P₂
+```
+
+**Example:** If A invests ₹5000, and B invests ₹10000, then profit is divided as:
+```math
+	ext{Profit Ratio} = 5000:10000 = 1:2
+```
+
+---
+
+## **🔹 3. Ratio of Profits in Compound Partnership**
+If **A & B** invest for different times **T₁ & T₂**, then:
+```math
+	ext{Profit Ratio} = (P₁ 	imes T₁) : (P₂ 	imes T₂)
+```
+
+**Example:** A invests ₹5000 for 2 years, and B invests ₹10000 for 1 year.
+```math
+	ext{Profit Ratio} = (5000 	imes 2) : (10000 	imes 1) = 10000 : 10000 = 1:1
+```
+
+---
+
+## **🔹 4. Finding a Partner's Share in Profit**
+If total profit = ₹P, and A's investment ratio is **x**, then:
+```math
+A's 	ext{Share} = \left( rac{x}{	ext{Total Ratio}} 
+ight) 	imes P
+```
+
+---
+
+## **🔹 5. Partner Joining Late or Leaving Early**
+If a partner joins after **T months**, the effective time for them is **(Total Time - T)**.
+
+**Example:** If A invests for **12 months**, and B joins after **4 months**, then:
+- A’s effective time = 12 months
+- B’s effective time = 12 - 4 = 8 months
+
+Profit Ratio:
+```math
+	ext{Profit Ratio} = (P_A 	imes 12) : (P_B 	imes 8)
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A & B invest ₹3000 and ₹6000 in a business. If the total profit is ₹4500, find A's share.**
+**Solution:**
+```math
+	ext{Profit Ratio} = 3000 : 6000 = 1:2
+```
+A’s Share:
+```math
+\left( rac{1}{3} 
+ight) 	imes 4500 = ₹1500
+```
+
+---
+
+### **📝 Q2: A invests ₹5000 for 2 years, and B invests ₹3000 for 3 years. Find their profit ratio.**
+**Solution:**
+```math
+	ext{Profit Ratio} = (5000 	imes 2) : (3000 	imes 3) = 10000 : 9000 = 10:9
+```
+
+---
+
+### **📝 Q3: A starts a business with ₹6000. After 4 months, B joins with ₹8000. At the end of the year, find the profit ratio.**
+**Solution:**
+- A’s effective time = 12 months
+- B’s effective time = 12 - 4 = 8 months
+
+Profit Ratio:
+```math
+(6000 	imes 12) : (8000 	imes 8) = 72000 : 64000 = 9:8
+```
+
+---
+
+## **🚀 Quick Tricks to Solve Faster**
+| Trick | Formula |
+|-------|---------|
+| **Equal Investment for Equal Time** | Profits are **equal** |
+| **Equal Investment, Different Time** | Profit ∝ **Time** |
+| **Different Investment, Same Time** | Profit ∝ **Investment** |
+| **Different Investment & Time** | Profit ∝ **Investment × Time** |
+
+---
+
+## **📌 Conclusion**
+- **Memorize formulas** 📚  
+- **Apply shortcut tricks** ⏳  
+- **Practice real exam problems** 🎯  
+
+🔥 **Mastering these will help you crack aptitude questions fast!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
