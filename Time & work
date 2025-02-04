@@ -1,0 +1,157 @@
+# ⏳ Time & Work - Formulas & Tricks for Aptitude Questions ⏳
+
+Time and Work problems are essential in **aptitude tests** for **Google, Amazon, Microsoft**, and other top companies. Below are the **key formulas, shortcuts, and tricks** to solve Time & Work problems **quickly and efficiently**. 🚀  
+
+---
+
+## **🔹 1. Basic Formula**
+```math
+Work Done = Time \times Efficiency
+```
+Where:  
+- **Work Done** = Total work completed  
+- **Time** = Number of days/hours taken  
+- **Efficiency** = Work done per unit time  
+
+Another way to express this is:
+```math
+Work = Rate \times Time
+```
+---
+
+## **🔹 2. Work Done in a Given Time**
+If a person can complete a task in **N days**, then:
+```math
+Work done in 1 day = \frac{1}{N}
+```
+- If **A** can do a job in **X days**, then **A’s 1-day work** = `1/X`
+- If **B** can do the same job in **Y days**, then **B’s 1-day work** = `1/Y`
+- If **A & B** work together, their **1-day work** = `1/X + 1/Y`
+
+---
+
+## **🔹 3. Finding Total Work**
+If A does **W%** of work in **D days**, then:
+```math
+Total Work = \frac{D \times 100}{W}
+```
+---
+
+## **🔹 4. Time Taken to Complete Work**
+If A’s efficiency is **E** and total work is **W**, then:
+```math
+Time = \frac{W}{E}
+```
+---
+
+## **🔹 5. Work Ratio Formula**
+If **A** and **B** work in the ratio `m:n`, then:
+```math
+Time Ratio = \frac{1}{m} : \frac{1}{n} = n : m
+```
+Thus, **more efficiency → less time required**.
+
+---
+
+## **🔹 6. Efficiency-Based Formula**
+If efficiency increases/decreases by **X%**, then:
+```math
+New Time = \frac{Old Time \times 100}{100 \pm X}
+```
+(Use **`+X`** for increase, **`-X`** for decrease)
+
+---
+
+## **🔹 7. Alternative Work Formula**
+If A does a work in **X days** and B is **k times efficient** than A, then B alone will take:
+```math
+Time = \frac{X}{k}
+```
+
+---
+
+## **📌 Tricks & Shortcuts for Quick Calculations**
+
+### **🔹 1. When More People Join or Leave**
+- If a person **joins later**, subtract their part-time contribution.
+- If a person **leaves early**, subtract their unfinished work.
+
+---
+
+### **🔹 2. If Work Involves Pipes & Cisterns**
+For a filling pipe:
+```math
+Net Work = \text{Filling Rate} - \text{Leak Rate}
+```
+For an emptying pipe:
+```math
+Net Work = \text{Filling Rate} + \text{Emptying Rate}
+```
+
+---
+
+### **🔹 3. If Work is Done in Fractions**
+- If `A` completes `1/X` of work in **1 day**, total work is `X days`.
+- If `A & B` together finish `1/Y` of work in **1 day**, total work is `Y days`.
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A can do a job in 10 days, B can do it in 15 days. How many days will they take together?**
+**Solution:**
+```math
+1 \text{-day work of A} = \frac{1}{10}
+```
+```math
+1 \text{-day work of B} = \frac{1}{15}
+```
+Total work per day:
+```math
+\frac{1}{10} + \frac{1}{15} = \frac{3}{30} + \frac{2}{30} = \frac{5}{30} = \frac{1}{6}
+```
+Thus, total time taken:
+```math
+6 \text{ days}
+```
+
+---
+
+### **📝 Q2: A is 3 times as efficient as B. If B alone can complete the work in 36 days, how long will A & B together take?**
+**Solution:**
+```math
+\text{A’s Time} = \frac{36}{3} = 12 \text{ days}
+```
+```math
+1 \text{-day work of A} = \frac{1}{12}, \quad 1 \text{-day work of B} = \frac{1}{36}
+```
+Total 1-day work:
+```math
+\frac{1}{12} + \frac{1}{36} = \frac{3}{36} + \frac{1}{36} = \frac{4}{36} = \frac{1}{9}
+```
+Total time taken:
+```math
+9 \text{ days}
+```
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+| Trick | Formula |
+|-------|---------|
+| **Work = Efficiency × Time** | `W = E × T` |
+| **Total Work = LCM of Individual Work** | `W = LCM(X, Y, Z, …)` |
+| **A is k times efficient than B** | `B's time = k × A's time` |
+| **Efficiency % Change** | `New Time = Old Time × (100 / (100 ± Change%))` |
+| **Alternate Days Work** | `Total Work = (A’s 1-day work + B’s 1-day work) × Days` |
+
+---
+
+## **📌 Conclusion**
+- **Memorize the formulas & efficiency rules** 📚  
+- **Apply shortcut tricks to save time** ⏳  
+- **Practice with real exam questions** 🎯  
+
+🔥 **Mastering these will help you crack aptitude questions fast!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
