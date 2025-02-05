@@ -1,0 +1,141 @@
+# 📊 Averages - Formulas & Tricks for Aptitude Questions 📊
+
+Averages are commonly asked in aptitude tests for companies like **Google, Amazon, Microsoft**, and others. Below are key **formulas, shortcuts, and tricks** to solve Average-related problems quickly. 🚀
+
+---
+
+## **🔹 1. Basic Average Formula**
+```math
+\text{Average} = \frac{\text{Sum of Observations}}{\text{Number of Observations}}
+```
+
+Where:
+- **Sum of Observations** = Total sum of all given values.
+- **Number of Observations** = Total count of values.
+
+---
+
+## **🔹 2. Finding Sum When Average is Given**
+```math
+\text{Sum} = \text{Average} \times \text{Number of Observations}
+```
+
+---
+
+## **🔹 3. Weighted Average Formula**
+When numbers have different weights:
+```math
+\text{Weighted Average} = \frac{(x_1w_1 + x_2w_2 + x_3w_3 + ...)}{(w_1 + w_2 + w_3 + ...)}
+```
+
+Where:
+- **x₁, x₂, x₃,...** are numbers.
+- **w₁, w₂, w₃,...** are their respective weights.
+
+---
+
+## **🔹 4. Finding New Average When a Number is Added/Removed**
+### **Case 1: When a Number is Added**
+```math
+\text{New Average} = \text{Old Average} + \frac{\text{Added Number} - \text{Old Average}}{\text{Total Observations}+1}
+```
+
+### **Case 2: When a Number is Removed**
+```math
+\text{New Average} = \text{Old Average} - \frac{\text{Removed Number} - \text{Old Average}}{\text{Total Observations}-1}
+```
+
+---
+
+## **🔹 5. Average of First n Natural Numbers**
+```math
+\text{Average} = \frac{(n+1)}{2}
+```
+
+---
+
+## **🔹 6. Average of Consecutive Numbers**
+### **Case 1: Consecutive Even/Odd Numbers**
+```math
+\text{Average} = \frac{\text{First Term} + \text{Last Term}}{2}
+```
+
+### **Case 2: Average of n Consecutive Even Numbers**
+```math
+\text{Average} = n + 1
+```
+
+### **Case 3: Average of n Consecutive Odd Numbers**
+```math
+\text{Average} = n
+```
+
+---
+
+## **📌 Tricks & Shortcuts for Quick Calculations**
+
+### **🔹 1. If the same number is added/subtracted to all observations, the average will increase/decrease by the same number.**
+
+### **🔹 2. If the numbers are in Arithmetic Progression (AP), the average is always the middle term.**
+
+### **🔹 3. If the numbers form a symmetrical pattern, the average is the central number.**
+
+### **🔹 4. If the average of 'n' elements is given and a new element is added, find the impact using:**
+```math
+\text{Impact} = \frac{\text{New Element} - \text{Old Average}}{n+1}
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: Find the average of 10, 20, 30, 40, and 50.**
+**Solution:**
+```math
+\text{Average} = \frac{(10+20+30+40+50)}{5} = \frac{150}{5} = 30
+```
+
+---
+
+### **📝 Q2: The average of 5 numbers is 18. If a new number 28 is added, find the new average.**
+**Solution:**
+```math
+\text{New Average} = 18 + \frac{28 - 18}{6} = 18 + \frac{10}{6} = 18 + 1.67 = 19.67
+```
+
+---
+
+### **📝 Q3: Find the average of first 10 natural numbers.**
+**Solution:**
+```math
+\text{Average} = \frac{(10+1)}{2} = \frac{11}{2} = 5.5
+```
+
+---
+
+### **📝 Q4: If the average marks of 5 students is 40 and a sixth student joins with 50 marks, find the new average.**
+**Solution:**
+```math
+\text{New Average} = \frac{(40 \times 5) + 50}{6} = \frac{200 + 50}{6} = \frac{250}{6} = 41.67
+```
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+| Trick | Formula |
+|-------|---------|
+| **Sum from Average** | \( \text{Sum} = \text{Average} \times \text{Number of Observations} \) |
+| **New Average (Addition)** | \( \text{New Average} = \text{Old Average} + \frac{\text{Added Number} - \text{Old Average}}{\text{Total Observations}+1} \) |
+| **New Average (Removal)** | \( \text{New Average} = \text{Old Average} - \frac{\text{Removed Number} - \text{Old Average}}{\text{Total Observations}-1} \) |
+| **First n Natural Numbers** | \( \frac{n+1}{2} \) |
+
+---
+
+## **📌 Conclusion**
+- **Memorize the average formulas & shortcuts** 📚  
+- **Apply tricks to save time** ⏳  
+- **Practice with real exam questions** 🎯  
+
+🔥 **Mastering these will help you crack aptitude questions fast!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
