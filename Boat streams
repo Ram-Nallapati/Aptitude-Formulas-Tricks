@@ -1,0 +1,173 @@
+# 🚤 Boats & Streams - Formulas & Tricks for Aptitude Questions 🚤
+
+Problems on **Boats & Streams** are common in competitive exams like **Google, Amazon, Microsoft** hiring tests. Below are the **key formulas, shortcuts, and tricks** to solve these problems efficiently.  
+
+---
+
+## **🔹 1. Basic Terminologies**
+- **Still Water Speed (B):** Speed of the boat in calm water.
+- **Stream Speed (S):** Speed of the water current.
+- **Downstream Speed:** Speed when the boat moves **with the current**.
+- **Upstream Speed:** Speed when the boat moves **against the current**.
+
+---
+
+## **🔹 2. Basic Formulas**
+### **1. Downstream Speed**
+```math
+D = B + S
+```
+
+### **2. Upstream Speed**
+```math
+U = B - S
+```
+
+### **3. Speed of Boat in Still Water**
+```math
+B = \frac{D + U}{2}
+```
+
+### **4. Speed of Stream**
+```math
+S = \frac{D - U}{2}
+```
+
+### **5. Time Taken for a Distance (d)**
+```math
+T = \frac{d}{\text{speed}}
+```
+
+---
+
+## **📌 Important Tricks & Shortcuts**
+
+### **🔹 1. If Time Ratio of Upstream to Downstream is Given**
+```math
+\text{Ratio of Upstream to Downstream Time} = \frac{B + S}{B - S}
+```
+
+---
+
+### **🔹 2. If Distance is the Same in Both Directions**
+- **Total Time Taken:**
+```math
+T = \frac{d}{B+S} + \frac{d}{B-S}
+```
+
+- **Effective Speed:**
+```math
+\text{Average Speed} = \frac{2 \times (B+S) \times (B-S)}{(B+S) + (B-S)} = \frac{2BU}{D+U}
+```
+
+---
+
+### **🔹 3. If a Boat Covers Distance in T1 Hours Downstream and T2 Hours Upstream**
+```math
+B = \frac{d \times (T1 + T2)}{2T1T2}
+```
+```math
+S = \frac{d \times (T1 - T2)}{2T1T2}
+```
+
+---
+
+### **🔹 4. If Boat Takes T1 Hours Downstream and T2 Hours Upstream for the Same Distance**
+```math
+B = \frac{(d/T1) + (d/T2)}{2}
+```
+```math
+S = \frac{(d/T1) - (d/T2)}{2}
+```
+
+---
+
+### **🔹 5. If a Boat Takes t Minutes More to Travel Upstream than Downstream for Distance d**
+```math
+S = \frac{d \times t}{2 \times T_d \times T_u}
+```
+
+Where:
+- **T_d** = Time taken downstream
+- **T_u** = Time taken upstream
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A boat's speed in still water is 10 km/hr, and the stream's speed is 2 km/hr. Find the time taken to travel 40 km downstream.**
+**Solution:**  
+```math
+D = B + S = 10 + 2 = 12 km/hr
+```
+```math
+T = \frac{40}{12} = 3.33 \text{ hours}
+```
+
+---
+
+### **📝 Q2: A boat goes 48 km upstream in 8 hours and the same distance downstream in 6 hours. Find B and S.**
+**Solution:**  
+```math
+U = \frac{48}{8} = 6 km/hr
+```
+```math
+D = \frac{48}{6} = 8 km/hr
+```
+```math
+B = \frac{D + U}{2} = \frac{8+6}{2} = 7 km/hr
+```
+```math
+S = \frac{D - U}{2} = \frac{8-6}{2} = 1 km/hr
+```
+
+---
+
+### **📝 Q3: A boat's speed in still water is 15 km/hr. If the speed of the stream is 3 km/hr, how long will it take to go 30 km upstream?**
+**Solution:**  
+```math
+U = B - S = 15 - 3 = 12 km/hr
+```
+```math
+T = \frac{30}{12} = 2.5 \text{ hours}
+```
+
+---
+
+### **📝 Q4: A boat takes 4 hours to go 40 km downstream and 5 hours to return upstream. Find B and S.**
+**Solution:**  
+```math
+D = \frac{40}{4} = 10 km/hr
+```
+```math
+U = \frac{40}{5} = 8 km/hr
+```
+```math
+B = \frac{D + U}{2} = \frac{10+8}{2} = 9 km/hr
+```
+```math
+S = \frac{D - U}{2} = \frac{10-8}{2} = 1 km/hr
+```
+
+---
+
+## **🚀 Quick Formula Recap**
+| Scenario | Formula |
+|----------|---------|
+| **Downstream Speed** | \( D = B + S \) |
+| **Upstream Speed** | \( U = B - S \) |
+| **Speed of Boat in Still Water** | \( B = \frac{D + U}{2} \) |
+| **Speed of Stream** | \( S = \frac{D - U}{2} \) |
+| **Time Taken for Distance (d)** | \( T = \frac{d}{\text{speed}} \) |
+| **Total Time (Same Distance Upstream & Downstream)** | \( T = \frac{d}{B+S} + \frac{d}{B-S} \) |
+
+---
+
+## **📌 Conclusion**
+- **Understand the core formulas & shortcuts** 📚  
+- **Use time-saving tricks** ⏳  
+- **Practice real exam problems** 🎯  
+
+🔥 **Mastering these will help you crack aptitude questions quickly!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
