@@ -1,0 +1,179 @@
+# 🚆 Problems on Trains - Tricks & Formulas for Aptitude Tests 🚆
+
+Problems on Trains are common in competitive exams and aptitude tests for **Google, Amazon, Microsoft**, and other top companies. Here are the **key formulas, shortcuts, and tricks** to solve them quickly.
+
+---
+
+## **📌 1. Basic Formulas**
+
+### **🔹 Speed Formula**
+```math
+	speed = \frac{distance}{time}
+```
+Where:
+- **Speed** is in km/hr or m/s
+- **Distance** is in meters or kilometers
+- **Time** is in seconds or hours
+
+### **🔹 Conversion of Speed**
+```math
+1 \text{ km/hr} = \frac{5}{18} \text{ m/s}
+```
+```math
+1 \text{ m/s} = \frac{18}{5} \text{ km/hr}
+```
+
+---
+
+## **📌 2. Train Passing a Stationary Object**
+
+If a train of **length L** meters is passing a stationary object (pole, tree, standing man), then:
+```math
+Time = \frac{L}{S}
+```
+Where:
+- **L** = Length of train (meters)
+- **S** = Speed of train (m/s)
+
+---
+
+## **📌 3. Train Passing a Platform / Tunnel / Bridge**
+
+If a train of **length L** meters crosses a platform/tunnel/bridge of **length P** meters,
+```math
+Time = \frac{L + P}{S}
+```
+Where:
+- **L** = Length of train (meters)
+- **P** = Length of platform/tunnel/bridge (meters)
+- **S** = Speed of train (m/s)
+
+---
+
+## **📌 4. Two Trains Moving in the Same Direction**
+
+If two trains of speeds **S₁** and **S₂** are moving in the same direction,
+```math
+Relative \ Speed = S_1 - S_2
+```
+```math
+Time = \frac{L_1 + L_2}{S_1 - S_2}
+```
+Where:
+- **L₁, L₂** = Lengths of the two trains (meters)
+- **S₁, S₂** = Speeds of the two trains (m/s), where **S₁ > S₂**
+
+---
+
+## **📌 5. Two Trains Moving in Opposite Directions**
+
+If two trains are moving in opposite directions,
+```math
+Relative \ Speed = S_1 + S_2
+```
+```math
+Time = \frac{L_1 + L_2}{S_1 + S_2}
+```
+Where:
+- **L₁, L₂** = Lengths of the two trains (meters)
+- **S₁, S₂** = Speeds of the two trains (m/s)
+
+---
+
+## **📌 6. Finding Speed When Time Difference is Given**
+
+If two trains cross a point **T₁** and **T₂** seconds apart, and their lengths are **L₁** and **L₂**, then:
+```math
+Speed = \frac{L_1 - L_2}{T_1 - T_2}
+```
+
+---
+
+## **📌 7. Train Overtaking a Moving Object (Bike, Cyclist, Car)**
+
+If a train of **length L** meters overtakes a moving object (bike, car, etc.) with speed **S₂**, then:
+```math
+Time = \frac{L}{S_1 - S_2}
+```
+Where:
+- **S₁** = Speed of train (m/s)
+- **S₂** = Speed of object (m/s)
+
+---
+
+## **📌 8. Train Crossing a Man Moving in the Opposite Direction**
+
+If a train of **length L** meters crosses a man moving in the opposite direction with speed **S₂**, then:
+```math
+Time = \frac{L}{S_1 + S_2}
+```
+Where:
+- **S₁** = Speed of train (m/s)
+- **S₂** = Speed of man (m/s)
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+
+| Scenario | Formula |
+|----------|---------|
+| Train crossing a pole | \( Time = \frac{L}{S} \) |
+| Train crossing a platform | \( Time = \frac{L + P}{S} \) |
+| Trains in the same direction | \( Time = \frac{L_1 + L_2}{S_1 - S_2} \) |
+| Trains in opposite directions | \( Time = \frac{L_1 + L_2}{S_1 + S_2} \) |
+| Train overtaking a moving object | \( Time = \frac{L}{S_1 - S_2} \) |
+| Train crossing a moving person (opposite) | \( Time = \frac{L}{S_1 + S_2} \) |
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A train of length 200m crosses a pole in 10s. Find its speed.**
+**Solution:**
+```math
+Speed = \frac{200}{10} = 20 \text{ m/s}
+```
+
+---
+
+### **📝 Q2: A 150m train crosses a platform of 250m in 20s. Find its speed.**
+**Solution:**
+```math
+Speed = \frac{150 + 250}{20} = \frac{400}{20} = 20 \text{ m/s}
+```
+
+---
+
+### **📝 Q3: Two trains 120m and 150m long move in the same direction at speeds 30 m/s and 20 m/s. Find the time taken to cross each other.**
+**Solution:**
+```math
+Relative \ Speed = 30 - 20 = 10 \text{ m/s}
+```
+```math
+Time = \frac{120 + 150}{10} = \frac{270}{10} = 27 \text{ s}
+```
+
+---
+
+### **📝 Q4: A 180m train crosses a man running at 10 m/s in the opposite direction in 9s. Find train speed.**
+**Solution:**
+```math
+S + 10 = \frac{180}{9}
+```
+```math
+S + 10 = 20
+```
+```math
+S = 10 \text{ m/s}
+```
+
+---
+
+## **📌 Conclusion**
+- **Memorize the key formulas** 📚
+- **Apply shortcut tricks to save time** ⏳
+- **Practice with real exam questions** 🎯
+
+🔥 **Mastering these will help you crack aptitude questions fast!** 🚀
+
+Let me know if you need more tricks or practice problems! 💡
