@@ -1,0 +1,140 @@
+# 🔢 Number System - Complete Formulas & Tricks for Aptitude Questions 🔢
+
+The **Number System** is a fundamental topic in aptitude tests for **Google, Amazon, Microsoft**, and other top companies. Below are essential **formulas, shortcuts, and tricks** to solve number system problems efficiently. 🚀
+
+---
+
+## **📌 1. Types of Numbers**
+- **Natural Numbers (N)**: {1, 2, 3, 4, ...}
+- **Whole Numbers (W)**: {0, 1, 2, 3, ...}
+- **Integers (Z)**: {..., -3, -2, -1, 0, 1, 2, 3, ...}
+- **Rational Numbers (Q)**: Numbers in the form of **p/q**, where q ≠ 0
+- **Irrational Numbers**: Non-repeating, non-terminating decimals (e.g., √2, π)
+- **Prime Numbers**: Numbers with exactly **two factors: 1 & itself** (e.g., 2, 3, 5, 7, ...)
+- **Composite Numbers**: Numbers with **more than two factors**
+- **Even Numbers**: Divisible by 2 (e.g., 2, 4, 6, 8, ...)
+- **Odd Numbers**: Not divisible by 2 (e.g., 1, 3, 5, 7, ...)
+
+---
+
+## **📌 2. Divisibility Rules**
+| Number | Divisibility Rule |
+|--------|------------------|
+| **2**  | Last digit is even (0,2,4,6,8) |
+| **3**  | Sum of digits is divisible by 3 |
+| **4**  | Last two digits form a number divisible by 4 |
+| **5**  | Last digit is 0 or 5 |
+| **6**  | Divisible by both 2 and 3 |
+| **7**  | Double the last digit, subtract from rest; result should be divisible by 7 |
+| **8**  | Last three digits form a number divisible by 8 |
+| **9**  | Sum of digits is divisible by 9 |
+| **10** | Last digit is 0 |
+| **11** | Difference between sum of odd and even positioned digits is divisible by 11 |
+| **12** | Divisible by both 3 and 4 |
+
+---
+
+## **📌 3. LCM & HCF Tricks**
+- **HCF (Highest Common Factor)**: Largest number that divides all given numbers
+- **LCM (Least Common Multiple)**: Smallest number divisible by all given numbers
+
+**Formulas:**
+```math
+HCF × LCM = Product \text{ of numbers}
+```
+**Shortcut to find HCF & LCM:**
+- **HCF**: Find the common factors and take the **largest** one.
+- **LCM**: Multiply the highest power of **each prime factor**.
+
+**Example:** Find HCF & LCM of 12 and 18
+- **Prime Factorization:**
+  - 12 = **2² × 3**
+  - 18 = **2 × 3²**
+- **HCF = 2¹ × 3¹ = 6**
+- **LCM = 2² × 3² = 36**
+
+---
+
+## **📌 4. Finding Number of Factors**
+If a number **N = pⁿ × qᵐ × rᵏ**, then **total factors**:
+```math
+( n + 1 ) × ( m + 1 ) × ( k + 1 )
+```
+**Example:** Find factors of **24**
+```math
+24 = 2³ × 3¹
+```
+```math
+Total Factors = (3+1) × (1+1) = 4 × 2 = 8
+```
+Factors: **1, 2, 3, 4, 6, 8, 12, 24**
+
+---
+
+## **📌 5. Sum of Factors**
+If **N = pⁿ × qᵐ × rᵏ**, then:
+```math
+Sum = \frac{p^{(n+1)} - 1}{p - 1} \times \frac{q^{(m+1)} - 1}{q - 1} \times \frac{r^{(k+1)} - 1}{r - 1}
+```
+
+**Example:** Find sum of factors of **12**
+```math
+12 = 2² × 3¹
+```
+```math
+Sum = \frac{2³ - 1}{2 - 1} × \frac{3² - 1}{3 - 1} = \frac{8 - 1}{1} × \frac{9 - 1}{2} = 7 × 4 = 28
+```
+
+---
+
+## **📌 6. Remainder Theorems**
+- **Euler's Theorem**: If **a & n** are coprime:
+  ```math
+a^{φ(n)} \equiv 1 \mod{n}
+  ```
+  Where **φ(n)** is **Euler's totient function**.
+- **Wilson's Theorem**: If **p is prime**, then:
+  ```math
+(p - 1)! \equiv -1 \mod{p}
+  ```
+- **Chinese Remainder Theorem (CRT)**: If two numbers give remainders **r₁, r₂** when divided by **m₁, m₂**, then CRT helps find the smallest number satisfying both conditions.
+
+---
+
+## **📌 7. Shortcut Tricks**
+### **🔹 Finding Last Digit of a Large Power**
+- Identify **last digit** of base
+- Use **cyclic pattern**
+
+**Example:** Find last digit of **7¹²³**
+- **7’s cycle:** 7 → 9 → 3 → 1
+- Divide exponent by **4** (as cycle repeats every 4):
+  ```math
+123 ÷ 4 = 3 (remainder)
+```
+- Last digit corresponds to **3rd** term in cycle → **3**
+
+### **🔹 Finding Sum of First N Natural Numbers**
+```math
+S = \frac{n(n+1)}{2}
+```
+### **🔹 Finding Sum of First N Odd Numbers**
+```math
+S = n²
+```
+### **🔹 Finding Sum of First N Even Numbers**
+```math
+S = n(n+1)
+```
+
+---
+
+## **📌 Conclusion**
+- Memorize **divisibility rules** 🚀
+- Use **LCM × HCF trick** 🔥
+- Apply **factor formulas** ⚡
+- Master **shortcut tricks for remainders & last digits** 💡
+
+🔥 **Practice these concepts to crack any number system problem in aptitude tests!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
