@@ -1,0 +1,167 @@
+# ⏳ Time, Speed & Distance - Formulas & Tricks for Aptitude Questions 🚀
+
+Time, Speed, and Distance (TSD) problems are frequently asked in aptitude tests for **Google, Amazon, Microsoft, and other top companies**. This document provides **key formulas, shortcuts, and tricks** to solve TSD problems efficiently.  
+
+---
+
+## **🔹 1. Basic Formula**
+```math
+
+distance = speed \times time
+```
+Where:
+- **Distance (D)** is measured in km, meters, or miles.
+- **Speed (S)** is measured in km/hr, m/s, or mph.
+- **Time (T)** is measured in hours, minutes, or seconds.
+
+---
+
+## **🔹 2. Conversions**
+- **Speed Conversion:**
+  - \( 1 \) km/hr = \( \frac{5}{18} \) m/sec
+  - \( 1 \) m/sec = \( \frac{18}{5} \) km/hr
+- **Time Conversion:**
+  - \( 1 \) hour = \( 60 \) minutes = \( 3600 \) seconds
+
+---
+
+## **🔹 3. Average Speed Formula**
+### **🔸 Case 1: When Equal Distances are Covered at Different Speeds**
+```math
+
+total\ average\ speed = \frac{2xy}{x+y}
+```
+Where:
+- **x** = Speed for first half
+- **y** = Speed for second half
+
+### **🔸 Case 2: When Different Distances are Covered at Different Speeds**
+```math
+
+total\ average\ speed = \frac{total\ distance}{total\ time}
+```
+
+---
+
+## **🔹 4. Relative Speed**
+- **If two objects move in opposite directions:**
+  ```math
+  relative\ speed = speed_1 + speed_2
+  ```
+- **If two objects move in the same direction:**
+  ```math
+  relative\ speed = |speed_1 - speed_2|
+  ```
+
+---
+
+## **🔹 5. Train Problems**
+### **🔸 Train Passing a Pole / Point**
+```math
+
+time = \frac{length\ of\ train}{speed\ of\ train}
+```
+
+### **🔸 Train Passing a Platform / Bridge**
+```math
+
+time = \frac{length\ of\ train + length\ of\ platform}{speed\ of\ train}
+```
+
+### **🔸 Two Trains Moving Towards Each Other**
+```math
+
+time = \frac{distance}{relative\ speed}
+```
+
+---
+
+## **🔹 6. Boats & Streams**
+- **Speed of boat in still water =** \( \frac{upstream\ speed + downstream\ speed}{2} \)
+- **Speed of stream =** \( \frac{downstream\ speed - upstream\ speed}{2} \)
+- **Effective Speed:**
+  - **Downstream:** \( speed_{boat} + speed_{stream} \)
+  - **Upstream:** \( speed_{boat} - speed_{stream} \)
+
+---
+
+## **🔹 7. Circular Tracks**
+### **🔸 Case 1: If two runners move in the same direction**
+```math
+
+time = \frac{circumference}{|speed_1 - speed_2|}
+```
+
+### **🔸 Case 2: If two runners move in opposite directions**
+```math
+
+time = \frac{circumference}{speed_1 + speed_2}
+```
+
+---
+
+## **🔹 8. Shortcuts & Tricks**
+### **🔸 1. If Speed Increases, Time Decreases (Inverse Relation)**
+- If speed is **doubled**, time is **halved**.
+- If speed is **tripled**, time becomes **one-third**.
+
+### **🔸 2. Ratio-Based Shortcut**
+If speed is in the ratio **x:y**, then time taken will be in the ratio **y:x**.
+
+### **🔸 3. Meeting Point Formula**
+When two objects move towards each other from two points A and B:
+```math
+
+time = \frac{distance}{speed_1 + speed_2}
+```
+
+---
+
+## **📌 Example Problems & Solutions**
+
+### **📝 Q1: A car travels 60 km at 30 km/hr and another 60 km at 40 km/hr. Find the average speed.**
+**Solution:**
+Using equal distance formula:
+```math
+average\ speed = \frac{2xy}{x+y} = \frac{2 \times 30 \times 40}{30+40} = \frac{2400}{70} = 34.28 km/hr
+```
+
+---
+
+### **📝 Q2: A train 120m long passes a pole in 6 sec. Find its speed.**
+**Solution:**
+```math
+speed = \frac{distance}{time} = \frac{120}{6} = 20 m/s
+```
+Converting to km/hr:
+```math
+speed = 20 \times \frac{18}{5} = 72 km/hr
+```
+
+---
+
+### **📝 Q3: A boat goes 30 km downstream in 3 hours and returns in 5 hours. Find the speed of the boat and stream.**
+**Solution:**
+```math
+speed_{downstream} = \frac{30}{3} = 10 km/hr
+```
+```math
+speed_{upstream} = \frac{30}{5} = 6 km/hr
+```
+Speed of boat in still water:
+```math
+speed_{boat} = \frac{10 + 6}{2} = 8 km/hr
+```
+Speed of stream:
+```math
+speed_{stream} = \frac{10 - 6}{2} = 2 km/hr
+```
+
+---
+
+## **📌 Conclusion**
+- **Master key formulas & tricks** 📚
+- **Use shortcuts for quick answers** ⏳
+- **Practice with real problems** 🎯
+
+🔥 **These formulas will help you crack aptitude tests efficiently!** 🚀
