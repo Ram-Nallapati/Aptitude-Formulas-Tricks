@@ -1,0 +1,153 @@
+# 🔥 Profit & Loss - Formulas & Tricks for Aptitude Questions 🔥
+
+Profit & Loss problems are commonly asked in aptitude tests for **Google, Amazon, Microsoft**, and other top companies. Below are **key formulas, shortcuts, and tricks** to solve these questions quickly. 🚀
+
+---
+
+## **🔹 1. Key Terminologies**
+- **Cost Price (CP)**: The price at which an item is bought.
+- **Selling Price (SP)**: The price at which an item is sold.
+- **Profit**: If SP > CP, then profit = SP - CP.
+- **Loss**: If CP > SP, then loss = CP - SP.
+- **Profit %**: `(Profit / CP) × 100`
+- **Loss %**: `(Loss / CP) × 100`
+
+---
+
+## **🔹 2. Important Formulas**
+
+### **📌 Profit / Loss Calculation**
+```math
+Profit = SP - CP
+```
+```math
+Loss = CP - SP
+```
+
+### **📌 Profit / Loss Percentage**
+```math
+Profit \% = \left( \frac{Profit}{CP} \times 100 \right)
+```
+```math
+Loss \% = \left( \frac{Loss}{CP} \times 100 \right)
+```
+
+### **📌 Selling Price Calculation**
+- When there is **Profit**:
+```math
+SP = CP \times \left( 1 + \frac{Profit \%}{100} \right)
+```
+- When there is **Loss**:
+```math
+SP = CP \times \left( 1 - \frac{Loss \%}{100} \right)
+```
+
+### **📌 Cost Price Calculation**
+- When **Profit % is given**:
+```math
+CP = \frac{SP}{1 + \frac{Profit \%}{100}}
+```
+- When **Loss % is given**:
+```math
+CP = \frac{SP}{1 - \frac{Loss \%}{100}}
+```
+
+### **📌 Discount Calculation**
+- **Discount** = Marked Price - Selling Price
+- **Discount %**:
+```math
+Discount \% = \left( \frac{Discount}{Marked Price} \times 100 \right)
+```
+- **Selling Price after Discount**:
+```math
+SP = Marked Price \times \left( 1 - \frac{Discount \%}{100} \right)
+```
+
+---
+
+## **📌 Tricks & Shortcuts for Quick Calculation**
+
+### **🔹 1. If Profit % and Loss % are Equal**
+If an item is sold at a profit **x%** and then again at a loss **x%**, there is always a **net loss**:
+```math
+Net \ Loss \% = \frac{x^2}{100}
+```
+
+### **🔹 2. Successive Profit & Loss**
+If there are **two successive profits/losses** of **x%** and **y%**, the overall profit/loss percentage is:
+```math
+Net \ Profit/Loss \% = x + y + \frac{xy}{100}
+```
+
+### **🔹 3. Relationship Between Cost Price and Selling Price**
+If **Profit % = Loss %**, then:
+```math
+Overall \ Loss \% = \left( \frac{Profit \%}{100} \right)^2 \times 100
+```
+
+### **🔹 4. If a Seller Gains x% and then Loses x% on the Selling Price**
+- There is always a **loss**:
+```math
+Loss \% = \frac{x^2}{100}
+```
+
+---
+
+## **📌 Example Questions with Solutions**
+
+### **📝 Q1: A shopkeeper buys an item for ₹500 and sells it for ₹600. Find the profit percentage.**
+**Solution:**  
+```math
+Profit = SP - CP = 600 - 500 = 100
+```
+```math
+Profit \% = \left( \frac{100}{500} \times 100 \right) = 20\%
+```
+
+---
+
+### **📝 Q2: A shopkeeper marks an article at ₹800 and gives a discount of 10%. Find the selling price.**
+**Solution:**  
+```math
+SP = 800 \times \left( 1 - \frac{10}{100} \right) = 800 \times 0.9 = ₹720
+```
+
+---
+
+### **📝 Q3: An article is sold for ₹750 after allowing a discount of 25% on the marked price. Find the marked price.**
+**Solution:**  
+```math
+MP = \frac{SP}{1 - \frac{Discount \%}{100}}
+```
+```math
+MP = \frac{750}{1 - \frac{25}{100}} = \frac{750}{0.75} = ₹1000
+```
+
+---
+
+### **📝 Q4: A trader buys an item for ₹400 and sells it at a profit of 25%. Find the selling price.**
+**Solution:**  
+```math
+SP = 400 \times \left( 1 + \frac{25}{100} \right) = 400 \times 1.25 = ₹500
+```
+
+---
+
+## **🚀 Rapid-Fire Tricks for Quick Answers**
+| Trick | Formula |
+|-------|---------|
+| **Profit % given, find SP** | \( SP = CP \times \left( 1 + \frac{Profit \%}{100} \right) \) |
+| **Loss % given, find SP** | \( SP = CP \times \left( 1 - \frac{Loss \%}{100} \right) \) |
+| **Successive Profit & Loss** | \( Net \% = x + y + \frac{xy}{100} \) |
+| **Discount Calculation** | \( Discount \% = \left( \frac{Discount}{Marked Price} \times 100 \right) \) |
+
+---
+
+## **📌 Conclusion**
+- **Memorize the formulas & shortcuts** 📚  
+- **Apply tricks to save time** ⏳  
+- **Practice with real exam questions** 🎯  
+
+🔥 **Mastering these will help you crack aptitude tests fast!** 🚀  
+
+Let me know if you need more tricks or practice problems! 💡
