@@ -1,6 +1,7 @@
 # 🔥 Aptitude Tricks & Formulas - Problems on Ages 🔥
 
-Problems on ages are commonly asked in competitive exams and aptitude tests. Below are **formulas, shortcuts, and tricks** to solve age-related questions quickly. 🚀
+Problems on ages are commonly asked in competitive exams and aptitude tests. Below are **formulas, shortcuts, and 
+tricks** to solve age-related questions quickly. 🚀
 
 ---
 
@@ -18,7 +19,7 @@ If the **present age** is **X**, then:
 
 If the average age of a group of **N** people is **A**, then:
 ```math
-\text{Total age} = A \times N
+Total age = A \times N
 ```
 If a new person with age **B** joins, the new average is:
 ```math
